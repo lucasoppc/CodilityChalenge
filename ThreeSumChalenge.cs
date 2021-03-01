@@ -4,6 +4,10 @@ using System.Collections.Generic;
 namespace Chalenge02
 {
     /*
+    Mi solucion consiste en hacer bucles anidados que hagan todas las combinaciones posibles de 3 numeros para comprobar si suman 0. 
+    Para evitar en cada solucion tener indices repetidos, se verifica que no se tome un indice ya tomado para la solucion actual a combinar. 
+    Luego para quitar duplicados se verifica cada numero de cada solucion con el resto de soluciones, se guarda en un array, 
+    y luego se eliminan de la solucion segun el array de duplicados.
     Tambien se corrobora que no hayan soluciones duplicadas aunque sean de diferente indice del array. 
     Por ejemplo, si hay 6 ceros en el array, solo se toma una solucion de tres ceros como valida.
     */
