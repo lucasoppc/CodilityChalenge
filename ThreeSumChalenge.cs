@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace Chalenge02
 {
+    /*
+    Tambien se corrobora que no hayan soluciones duplicadas aunque sean de diferente indice del array. 
+    Por ejemplo, si hay 6 ceros en el array, solo se toma una solucion de tres ceros como valida.
+    */
     class Program
     {
         static void Main(string[] args)
